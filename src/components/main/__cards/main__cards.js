@@ -1,34 +1,54 @@
 import React from 'react';
 import '../../../styles/main/__cards/main__cards.css';
+import Card from './__card/cards__card.js';
 
-function Cards() {
+const storageDeals = [
+    {
+        title: "Basic",
+        monthlyPrice: "19.99",
+        annualyPrice: "149.00",
+        monthlyStorage: "500 GB",
+        annualyStorage: "1 TB",
+        monthlyUsers: "2",
+        annualyUsers: "4",
+        monthlySendGb: "3 GB",
+        annualySendGb: "6 GB",
+        itsMiddle: false,
+    },
+    {
+        title: "Professional",
+        monthlyPrice: "24.99",
+        annualyPrice: "199.00",
+        monthlyStorage: "1 TB",
+        annualyStorage: "2 TB",
+        monthlyUsers: "5",
+        annualyUsers: "10",
+        monthlySendGb: "10 GB",
+        annualySendGb: "15 GB",
+        itsMiddle: true,
+    },
+    {
+        title: "Basic",
+        monthlyPrice: "29.99",
+        annualyPrice: "249.00",
+        monthlyStorage: "2 TB",
+        annualyStorage: "3 TB",
+        monthlyUsers: "10",
+        annualyUsers: "15",
+        monthlySendGb: "20 GB",
+        annualySendGb: "25 GB",
+        itsMiddle: false,
+    }
+]
 
+function Cards({paymentMode}) {
     return (
         <div className='cards__container'>
-            <div className='cards__card'>
-                <h3 className='cards__card-title'>Basic</h3>
-                <h2 className='cards__card-price'>$19.99</h2>
-                <p className='cards__card-feuture'>500 GB Storage</p>
-                <p className='cards__card-feuture'>2 Users Allowed</p>
-                <p className='cards__card-feuture cards__card-feuture_last'>Send up to 3 GB</p>
-                <a className='cards__card-link' href='www.linkedin.com/in/aldo-navarro-147b03282' target='_BLANK'>LEARN MORE</a>
-            </div>
-            <div className='cards__card'>
-                <h3 className='cards__card-title'>Basic</h3>
-                <h2 className='cards__card-price'>$19.99</h2>
-                <p className='cards__card-feuture'>500 GB Storage</p>
-                <p className='cards__card-feuture'>2 Users Allowed</p>
-                <p className='cards__card-feuture cards__card-feuture_last'>Send up to 3 GB</p>
-                <a className='cards__card-link' href='www.linkedin.com/in/aldo-navarro-147b03282' target='_BLANK'>LEARN MORE</a>
-            </div>
-            <div className='cards__card'>
-                <h3 className='cards__card-title'>Basic</h3>
-                <h2 className='cards__card-price'>$19.99</h2>
-                <p className='cards__card-feuture'>500 GB Storage</p>
-                <p className='cards__card-feuture'>2 Users Allowed</p>
-                <p className='cards__card-feuture cards__card-feuture_last'>Send up to 3 GB</p>
-                <a className='cards__card-link' href='www.linkedin.com/in/aldo-navarro-147b03282' target='_BLANK'>LEARN MORE</a>
-            </div>
+            {storageDeals.map((item, index) => (
+            <Card key={index} title={item.title} paymentMode={paymentMode} monthlyPrice={item.monthlyPrice} annualyPrice={item.annualyPrice} 
+            monthlyStorage={item.monthlyStorage} annualyStorage={item.annualyStorage} monthlyUsers={item.monthlyUsers} annualyUsers={item.annualyUsers} 
+            monthlySendGb={item.monthlySendGb} annualySendGb={item.annualySendGb} itsMiddle={item.itsMiddle}/>
+            ))}
         </div>
     );
 }

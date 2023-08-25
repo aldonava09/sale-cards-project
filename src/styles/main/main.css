@@ -4,4 +4,11 @@
     min-height: 850px;
     flex-wrap: wrap;
     margin: 0;
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    .main{
+        height: fit-content;
+    }
 }

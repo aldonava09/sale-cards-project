@@ -1,9 +1,9 @@
 .payment-type__button-container{
     display: flex;
     width: 100%;
-    min-height: 50px;
+    height: 50px;
     justify-content: center;
-    margin-top: 4%;
+    margin: 0;
 }
 
 .payment-type__button-title{
@@ -55,4 +55,10 @@
 
 .payment-type__button-input:checked + .payment-type__button-slider:before {
     transform: translateX(35px);
+}
+
+@media (max-width: 500px) {
+    .payment-type__button-container{
+        margin-top: 3%;
+    }
 }

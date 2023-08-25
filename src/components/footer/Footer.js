@@ -1,9 +1,10 @@
 import React from 'react';
+import '../../styles/footer/footer.css';
 
 function Footer() {
   return (
         <div className="footer">
-            <h1>footer</h1>
+            <p className='footer__paragraph'>CREATED BY ALDO NAVARRO ®</p>
         </div>
     );
 }
