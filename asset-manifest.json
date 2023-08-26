@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.328c25aa.css",
-    "main.js": "/static/js/main.e4d93f01.js",
-    "static/js/787.33e33395.chunk.js": "/static/js/787.33e33395.chunk.js",
-    "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
-    "static/media/up-decoration.svg": "/static/media/up-decoration.aa340bc1616f1b92b051b9d54d1ffdfb.svg",
-    "static/media/down-decoration.svg": "/static/media/down-decoration.0b55a829ff206e67d16ff04702356581.svg",
-    "index.html": "/index.html",
-    "main.328c25aa.css.map": "/static/css/main.328c25aa.css.map",
-    "main.e4d93f01.js.map": "/static/js/main.e4d93f01.js.map",
-    "787.33e33395.chunk.js.map": "/static/js/787.33e33395.chunk.js.map"
+    "main.css": "/sale-cards-project/static/css/main.37fe18bf.css",
+    "main.js": "/sale-cards-project/static/js/main.33cbfc9c.js",
+    "static/js/787.33e33395.chunk.js": "/sale-cards-project/static/js/787.33e33395.chunk.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/sale-cards-project/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "static/media/up-decoration.svg": "/sale-cards-project/static/media/up-decoration.aa340bc1616f1b92b051b9d54d1ffdfb.svg",
+    "static/media/down-decoration.svg": "/sale-cards-project/static/media/down-decoration.0b55a829ff206e67d16ff04702356581.svg",
+    "index.html": "/sale-cards-project/index.html",
+    "main.37fe18bf.css.map": "/sale-cards-project/static/css/main.37fe18bf.css.map",
+    "main.33cbfc9c.js.map": "/sale-cards-project/static/js/main.33cbfc9c.js.map",
+    "787.33e33395.chunk.js.map": "/sale-cards-project/static/js/787.33e33395.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.328c25aa.css",
-    "static/js/main.e4d93f01.js"
+    "static/css/main.37fe18bf.css",
+    "static/js/main.33cbfc9c.js"
   ]
 }
